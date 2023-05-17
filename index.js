@@ -9,10 +9,18 @@ const questions = [
     },
     {
         type: "input",
-        name: "Color",
-        message: "What would like the color of your logo to be?",
+        name: "textColor",
+        message: "What would like the color of the text inside your logo to be? (This can be a keyword or a hexadecimal number).",
     },
     {
-        
-    }
+        type: "list",
+        name: "Shape",
+        message: "What shape would you like for your logo?",
+        choices: ["Circle", "Triangle", "Square"]
+    },
+    {
+        type: "input",
+        name: "shapeColor",
+        message: "What would like the background color of your logo to be? (This can be a keyword or a hexadecimal number).",
+    },
 ];

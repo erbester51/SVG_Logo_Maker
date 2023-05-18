@@ -24,3 +24,5 @@ const questions = [
         message: "What would like the background color of your logo to be? (This can be a keyword or a hexadecimal number).",
     },
 ];
+
+inquirer.prompt(questions).then

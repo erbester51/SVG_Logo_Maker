@@ -13,4 +13,5 @@ The video is in my Images folder
 
 ## Github Repo
 This is the link for the github repo where this project sits
+
 https://github.com/erbester51/SVG_Logo_Maker
